@@ -42,12 +42,12 @@ Further developments might include exploring additional data sources for even mo
     │    ├── final               <- Final results of all experiments, consolidated and cleaned
     │    ├── interim             <- Results from hyperparameter tuning experiments
     │    └── raw                 <- Gold standard validation data
+    ├── notebooks
+    │    └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
     │
     ├── reports
     │    ├── figures             <- Figures used to generate report
     │    └── Adaptive-RAG.ipynb  <- Final report
     │
-    ├── models                  <- Configuration files of model variants
-    │
-    └── notebooks
-        └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
+    └── models                   <- Configuration files of model variants
+
