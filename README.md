@@ -58,6 +58,7 @@ To utilize this project on Google Colab:
 Further developments might include exploring additional data sources for even more tailored responses, integrating more advanced language models, and expanding the customization options for different industries or departments within an organization.
 
 ## Project Organization
+
    ├── README.md
    ├── data
    │   ├── final               <- Final results of all experiments, consolidated and cleaned
