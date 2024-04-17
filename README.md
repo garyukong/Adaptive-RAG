@@ -14,11 +14,6 @@ This proof-of-concept project explores the use of Retrieval-Augmented Generation
 
 This project utilizes a multi-source dataset comprising arXiv papers, GitHub repositories, and Wikipedia entries. Gold standard validation data is provided to benchmark the system's response quality against high-quality human-generated responses.
 
-### Source:
-[arXiv](https://arxiv.org)
-[GitHub](https://github.com)
-[Wikipedia](https://www.wikipedia.org)
-
 ## Methodology
 
 1. **System Architecture**: The system uses a flexible RAG architecture that integrates retrieval and generation capabilities, underpinned by the LangChain library.
@@ -40,19 +35,19 @@ To utilize this project on Google Colab:
 Further developments might include exploring additional data sources for even more tailored responses, integrating more advanced language models, and expanding the customization options for different industries or departments within an organization.
 
 ## Project Organization
-------------
-   ├── README.md
-   ├── data
-   │   ├── final               <- Final results of all experiments, consolidated and cleaned
-   │   ├── interim             <- Results from hyperparameter tuning experiments
-   │   └── raw                 <- Gold standard validation data
-   │
-   ├── reports
-   │   ├── figures             <- Figures used to generate report
-   │   └── Adaptive-RAG.ipynb  <- Final report
-   │
-   ├── models                  <- Configuration files of model variants
-   │
-   └── notebooks
-       └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
-------------
+
+    ├── LICENSE
+    ├── README.md
+    ├── data
+    │    ├── final               <- Final results of all experiments, consolidated and cleaned
+    │    ├── interim             <- Results from hyperparameter tuning experiments
+    │    └── raw                 <- Gold standard validation data
+    │
+    ├── reports
+    │    ├── figures             <- Figures used to generate report
+    │    └── Adaptive-RAG.ipynb  <- Final report
+    │
+    ├── models                  <- Configuration files of model variants
+    │
+    └── notebooks
+        └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
