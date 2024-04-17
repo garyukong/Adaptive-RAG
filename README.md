@@ -58,17 +58,17 @@ To utilize this project on Google Colab:
 Further developments might include exploring additional data sources for even more tailored responses, integrating more advanced language models, and expanding the customization options for different industries or departments within an organization.
 
 ## Project Organization
-├── README.md
-├── data
-│   ├── final               <- Final results of all experiments, consolidated and cleaned
-│   ├── interim             <- Results from hyperparameter tuning experiments
-│   └── raw                 <- Gold standard validation data
-│
-├── reports
-│   ├── figures             <- Figures used to generate report
-│   └── Adaptive-RAG.ipynb  <- Final report
-│
-├── models                  <- Configuration files of model variants
-│
-└── notebooks
-    └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
+   ├── README.md
+   ├── data
+   │   ├── final               <- Final results of all experiments, consolidated and cleaned
+   │   ├── interim             <- Results from hyperparameter tuning experiments
+   │   └── raw                 <- Gold standard validation data
+   │
+   ├── reports
+   │   ├── figures             <- Figures used to generate report
+   │   └── Adaptive-RAG.ipynb  <- Final report
+   │
+   ├── models                  <- Configuration files of model variants
+   │
+   └── notebooks
+       └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
