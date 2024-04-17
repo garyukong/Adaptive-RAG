@@ -22,7 +22,7 @@ This project utilizes a multi-source dataset comprising arXiv papers, GitHub rep
 
 ## Results
 
-The results affirm the capability of the adaptive RAG system to significantly enhance the relevance and quality of responses across different user personas. Particularly, research-oriented configurations have shown to outperform their marketing counterparts, highlighting the effectiveness of the tailored system components.
+The results affirm the capability of the adaptive RAG system to significantly enhance the relevance and quality of responses across different user personas. Particularly, research-oriented configurations have been shown to outperform their marketing counterparts, highlighting the effectiveness of the tailored system components.
 
 ## Usage
 
