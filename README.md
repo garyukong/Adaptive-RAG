@@ -34,25 +34,7 @@ The results affirm the capability of the adaptive RAG system to significantly en
 To utilize this project on Google Colab:
 1. **Open Google Colab**: Go to [Google Colab](https://colab.research.google.com/) and sign in with your Google account.
 2. **Upload Notebooks**: Upload the Jupyter notebooks from the `notebooks/` directory of this repository to your Google Colab session.
-3. **Install Dependencies**: Run the following command in the first cell of your notebook to install necessary dependencies:
-   ```python
-    !pip -q install transformers
-    !pip -q install datasets loralib sentencepiece
-    !pip -q install bitsandbytes accelerate
-    !pip -q install langchain
-    !pip install faiss-gpu
-    !pip install --upgrade --quiet  langchain-community chromadb bs4 qdrant-client
-    !pip install langchainhub
-    !pip install --upgrade --quiet  wikipedia
-    !pip install --upgrade --quiet  arxiv
-    !pip install --upgrade --quiet  pymupdf
-    !pip install xmltodict
-    !pip install sentence_transformers
-    !pip install evaluate
-    !pip install git+https://github.com/google-research/bleurt.git
-    !pip install bert_score
-    !pip install langchain_cohere
-    !pip install optuna
+3. **Install Dependencies**: Run the `pip install` commands to install the required dependencies
 
 ## Future Work
 Further developments might include exploring additional data sources for even more tailored responses, integrating more advanced language models, and expanding the customization options for different industries or departments within an organization.
