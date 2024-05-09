@@ -1,4 +1,4 @@
-# Adaptive AI for Diverse Needs Using RAG
+# RAG-Powered Search and QA
 
 ## Introduction
 
