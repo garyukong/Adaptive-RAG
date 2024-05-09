@@ -18,7 +18,7 @@ This project utilizes a multi-source dataset comprising arXiv papers, GitHub rep
 
 1. **System Architecture**: The system uses a flexible RAG architecture that integrates retrieval and generation capabilities, underpinned by the LangChain library.
 2. **Customization and Testing**: Offers deep customization of retrieval and language model settings, tailored for either marketing or research needs.
-3. **Evaluation**: Applies BLEURT and other relevant metrics to rigorously evaluate the system, ensuring responses meet the set quality standards.
+3. **Evaluation**: Applies BLEURT and qualitative evaluation to rigorously evaluate the system, ensuring responses meet the set quality standards.
 
 ## Results
 
@@ -44,10 +44,8 @@ Further developments might include exploring additional data sources for even mo
     │    └── raw                 <- Gold standard validation data
     ├── notebooks
     │    └── Adaptive-RAG.ipynb  <- Jupyter notebook used to generate report
-    │
     ├── reports
     │    ├── figures             <- Figures used to generate report
     │    └── Adaptive-RAG.ipynb  <- Final report
-    │
     └── models                   <- Configuration files of model variants
 
